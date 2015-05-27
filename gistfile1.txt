@@ -1,0 +1,14 @@
+$ adb logcat -s RecorderService
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/RecorderService( 1841): onServiceConnected
+...
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_CLICKED [class] android.widget.Button [package] com.example [time] 7710428 [text] Activity1
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_FOCUSED [class] android.widget.EditText [package] com.example [time] 7710521 [text]
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_WINDOW_STATE_CHANGED [class] com.example.Activity1 [package] com.example [time] 7710536 [text] TestRecord
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_FOCUSED [class] android.widget.EditText [package] com.example [time] 7710539 [text]
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_CLICKED [class] android.widget.EditText [package] com.example [time] 7725471 [text]
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_TEXT_CHANGED [class] android.widget.EditText [package] com.example [time] 7728589 [text] f
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_TEXT_CHANGED [class] android.widget.EditText [package] com.example [time] 7728804 [text] fg
+V/RecorderService( 1841): onAccessibilityEvent: [type] TYPE_VIEW_TEXT_CHANGED [class] android.widget.EditText [package] com.example [time] 7728994 [text] fgj
+...
